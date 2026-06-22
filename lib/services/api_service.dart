@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://10.0.2.2:3000/api';
+  static const String baseUrl = 'http://localhost:3000/api';
   // Gunakan 10.0.2.2 untuk emulator Android (localhost komputer)
   // Jika pakai HP fisik, ganti dengan IP komputer Anda, contoh: http://192.168.1.5:3000/api
 
